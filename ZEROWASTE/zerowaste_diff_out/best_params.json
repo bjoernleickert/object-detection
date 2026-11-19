@@ -1,0 +1,28 @@
+{
+  "best_method": "mog2",
+  "params": {
+    "median": {
+      "thr": 40,
+      "open_k": 3,
+      "close_k": 9,
+      "min_area": 6000,
+      "max_area_frac": 0.6
+    },
+    "framediff": {
+      "thr": "otsu",
+      "open_k": 7,
+      "close_k": 9,
+      "min_area": 6000,
+      "max_area_frac": 0.6
+    },
+    "mog2": {
+      "thr": 128,
+      "open_k": 7,
+      "close_k": 9,
+      "min_area": 6000,
+      "max_area_frac": 0.6
+    }
+  },
+  "proc_scale": 0.5,
+  "l_weight": 0.5
+}
